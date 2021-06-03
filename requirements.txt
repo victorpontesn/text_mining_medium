@@ -1,0 +1,10 @@
+scipy
+numpy
+pandas
+scikit-learn
+
+nltk
+unidecode
+bs4
+
+implicit
