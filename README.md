@@ -32,7 +32,6 @@ Above there is an example creating and activating a conda virtual environment.
 
 + From now on, if everything went well, the notebooks with the experiments can be run.
 
-> :warning: **Notebooks are being updated and will be available in a few minutes.**
 
 + **Directory Structure**
 ```

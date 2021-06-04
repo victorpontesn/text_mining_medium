@@ -5,7 +5,4 @@
 *.npy
 *.npz
 *.zip
-
 .makefile.swp
-
-*.ipynb
