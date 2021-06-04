@@ -33,3 +33,27 @@ Above there is an example creating and activating a conda virtual environment.
 + From now on, if everything went well, the notebooks with the experiments can be run.
 
 > :warning: **Notebooks are being updated and will be available in a few minutes.**
+
++ **Directory Structure**
+
+├── LICENSE
+├── Makefile           <- Makefile with command `make deps`
+├── README.md          <- The top-level README for developers using this project.
+├── data
+├── models             <- Text models predictions.
+├── notebooks          <- Jupyter notebooks.
+├── reports            <- Generated analysis - CSV files
+│
+├── requirements.txt   <- The requirements file for reproducing the analysis environment.
+│
+├── src                <- Source code for use in this project.
+    ├── __init__.py    <- Makes src a Python module
+    ├── builder.py     <- Functions for all steps of Text Mining 
+    │
+    ├── Text_Mining    <- Text Mining Library by Victor Pontes.
+        │                 
+        ├── preprocess.py     <- Module with specialized instructions for preprocess text data.
+        ├── stopwords.py      <- List of stop words.
+		└── TopicClustering   <- Module with specialized instructions for matrix factorization, 
+								 topic modeling and clustering activities.
+
