@@ -5,7 +5,7 @@
 > This repository is intended to record the procedures presented in the series of posts about Text Mining on my [Medium Blog Post](https://medium.com/@victoraleff).
 
 ### Published Articles:
-+ [Mineração de Texto - Framework de Prospecção de Categorias](https://medium.com/@victoraleff)
++ [DataHacker: Mineração de Texto - Framework de Prospecção de Categorias](https://medium.com/data-hackers/minera%C3%A7%C3%A3o-de-texto-framework-de-prospec%C3%A7%C3%A3o-de-categorias-75d2bce5750f)
 
 ### **Basic Usage**
 
@@ -53,6 +53,6 @@ Above there is an example creating and activating a conda virtual environment.
         │                 
         ├── preprocess.py     <- Module with specialized instructions for preprocess text data.
         ├── stopwords.py      <- List of stop words.
-		└── TopicClustering   <- Module with specialized instructions for matrix factorization, 
+        ├── TopicClustering   <- Module with specialized instructions for matrix factorization,
 								 topic modeling and clustering activities.
 ```
