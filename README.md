@@ -35,7 +35,7 @@ Above there is an example creating and activating a conda virtual environment.
 > :warning: **Notebooks are being updated and will be available in a few minutes.**
 
 + **Directory Structure**
-
+```
 ├── LICENSE
 ├── Makefile           <- Makefile with command `make deps`
 ├── README.md          <- The top-level README for developers using this project.
@@ -56,4 +56,4 @@ Above there is an example creating and activating a conda virtual environment.
         ├── stopwords.py      <- List of stop words.
 		└── TopicClustering   <- Module with specialized instructions for matrix factorization, 
 								 topic modeling and clustering activities.
-
+```
