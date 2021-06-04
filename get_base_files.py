@@ -1,7 +1,8 @@
 from src.builder import preprocess, bag_of_words, builder_wals, build_semantic_clustering 
 
-preprocess(data_path='data/articles.csv', process_columns = ['text', 'title'], 
-           output_name_sufix='processed', clean_html=False)
+#preprocess(data_path='data/articles.csv', process_columns = ['text', 'title'], 
+#           output_name_sufix='processed', clean_html=True, remove_raw=True)
+
 
 bag_of_words(data_path='data/articles_processed.parquet', columns = ['text', 'title'], 
              name_bow_model='unigram_articles', save_tf=True, save_tfidf=True)

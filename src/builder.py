@@ -6,10 +6,11 @@ import pandas as pd
 from scipy.sparse import save_npz, load_npz
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from .Text_Mining import TopicClustering
+from .Text_Mining.preprocess import TextCleaner
 from scipy.sparse.linalg import svds
 import faiss
 import os
-from .utils.preprocess import TextCleaner
+
 
 def preprocess(data_path, process_columns, output_name_sufix, convert_parquet=True, remove_raw=False, clean_html=True):
     '''
