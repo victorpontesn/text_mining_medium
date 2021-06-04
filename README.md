@@ -54,5 +54,5 @@ Above there is an example creating and activating a conda virtual environment.
         ├── preprocess.py     <- Module with specialized instructions for preprocess text data.
         ├── stopwords.py      <- List of stop words.
         ├── TopicClustering   <- Module with specialized instructions for matrix factorization,
-								 topic modeling and clustering activities.
+		topic modeling and clustering activities.
 ```
